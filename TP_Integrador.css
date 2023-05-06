@@ -14,7 +14,7 @@
   }
   
   .bg-img {
-    background-image: url("/Imagenes/ba1.jpg");
+    background-image: url("ba1.jpg");
     background-size: cover;
     height: 90vh;
     background-position: center center;
