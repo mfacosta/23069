@@ -1,155 +1,152 @@
 * html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.nav-link {
-  font-size: 20px;
-  color: darkgrey;
-}
-
-.nav-link-lawngreen {
-  color: lawngreen;
-}
-
-.bg-img {
-  background-image: url("../Images/ba1.jpg");
-  background-size: cover;
-  height: 90vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
-.flex {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-  align-items: end;
-  text-align: end;
-  justify-content: center;
-}
-
-.text-size {
-  font-size: 19px;
-}
-
-.overlay {
-  margin: 0 4px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-.btn-outline {
-  color: white;
-  border: white 1px solid;
-}
-
-.btn-tickets {
-  background-color: rgb(41, 167, 68);
-}
-
-
-.btn-Qso {
-  color: white;
-  border: white 2px solid;
-
-}
-
-.btn-tickets {
-  color: white;
-  background-color: #27A746;
-}
-
-.right {
-  float: right;
-  height: unset;
-}
-
-
-.skill {
-  font-size: 12px;
-  font-weight: 700;
-  padding: 1px 8px;
-  color: white;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.skill:hover {
-  color: black;
-  cursor: none;
-}
-
-.javaScript {
-  background-color: #FEC107;
-  color: black;
-}
-
-.react {
-  background-color: #17A2B7;
-  color: white
-}
-
-.Startups {
-  background-color: #DB3647;
-}
-
-.Negocios {
-  background-color: #080808c8;
-}
-
-.text-small {
-  font-size: 12.5px;
-  text-align: justify;
-}
-
-.card-cont {
-  padding: 0%;
-}
-
-.text-small2 {
-  color: white;
-  font-size: 14.5px;
-  text-align: justify;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    color: darkgrey;
+  }
+  
+  .nav-link-lawngreen {
+    color: lawngreen;
+  }
+  
+  .bg-img {
+    background-image: url("/Imagenes/ba1.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: end;
+    text-align: end;
+    justify-content: center;
+  }
+  
+  .text-size {
+    font-size: 19px;
+  }
+  
+  .overlay {
+    margin: 0 4px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn-outline {
+    color: white;
+    border: white 1px solid;
+  }
+  
+  .btn-tickets {
+    background-color: rgb(41, 167, 68);
+  }
+  
+  .btn-Qso {
+    color: white;
+    border: white 2px solid;
+  
+  }
+  
+  .btn-tickets {
+    color: white;
+    background-color: #27A746;
+  }
+  
+  .right {
+    float: right;
+    height: unset;
+  }
+  
+  .skill {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1px 8px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .skill:hover {
+    color: black;
+    cursor: none;
+  }
+  
+  .javaScript {
+    background-color: #FEC107;
+    color: black;
+  }
+  
+  .react {
+    background-color: #17A2B7;
+    color: white
+  }
+  
+  .Startups {
+    background-color: #DB3647;
+  }
+  
+  .Negocios {
+    background-color: #080808c8;
+  }
+  
+  .text-small {
+    font-size: 12.5px;
+    text-align: justify;
+  }
+  
+  .card-cont {
+    padding: 0%;
+  }
+  
+  .text-small2 {
+    color: white;
+    font-size: 14.5px;
+    text-align: justify;
+  }
+  
 
 .dotted-underline {
-  border-bottom: 1px dashed #999;
-  text-decoration: none;
+    border-bottom: 1px dashed #999;
+ 
 }
 
-
-.btn-CM {
-  color: white;
-  border: white solid 1px;
-  background-color: transparent;
-}
-
-
+  .btn-CM {
+    color: white;
+    border: white solid 1px;
+    background-color: transparent;
+  }
+  
 .btn-success {
-  height: 50px;
-  background-color: #96C93E;
-  border: none;
-}
-
-.footer {
-  margin-top: 1vh;
-  align-items: center;
-  padding: 2Vh 15vh;
-  background-color: #1D3E51;
-}
-
-.opt-footer {
-  font-size: 18px;
-  color: white;
-  width: 140px;
-  height: 80px;
-  word-wrap: break-word;
-}
+    height: 50px;
+    background-color: #96C93E;
+    border: none;
+  }
+  
+  .footer {
+    margin-top: 1vh;
+    align-items: center;
+    padding: 2Vh 15vh;
+    background-color: #1D3E51;
+  }
+  
+  .opt-footer {
+    font-size: 18px;
+    color: white;
+    width: 140px;
+    height: 80px;
+    word-wrap: break-word;
+  }
+  

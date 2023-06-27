@@ -1,0 +1,89 @@
+* html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.nav-link {
+    font-size: 20px;
+    color: darkgrey;
+}
+  
+.nav-link-lawngreen {
+    color: lawngreen;
+}
+ 
+  
+.btn-tickets {
+    background-color: #27A746;
+}
+  
+.card-cont {
+    font-weight: 500;
+    padding: 1px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.right {
+    float: right;
+    height: unset;
+}
+
+
+.txtTickets {
+    color: white;
+    padding: 4px 12px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #aaa;    
+}
+
+.card-body {
+   position: relative;
+   top:100%;
+}
+
+.select-op{
+    padding: 0.375rem 0.75rem;
+    background-clip: padding-box;
+    background: transparent;
+    border: none;
+    height: 37px;
+    width: 700px;
+    max-width: 100%;
+    border: 1px solid #aaa;
+    border-radius: .3em;
+}
+
+.btn-borrar {
+    color: white;
+    background-color: #97C93E;
+    padding: 6px 12px;
+    width: 50%;    
+}
+
+.btn-resumen {
+    color: white;
+    background-color: #97C93E;
+    padding: 6px 12px;
+    width: 50%;    
+} 
+  
+.footer {
+    margin-top: 7vh;
+    align-items: center;
+    padding: 2Vh 15vh;
+    background-color: #1D3E51;
+}
+  
+.opt-footer {
+    font-size: 18px;
+    color: white;
+    width: 140px;
+    height: 80px;
+    word-wrap: break-word;
+}
+  

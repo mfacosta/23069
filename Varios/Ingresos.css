@@ -1,0 +1,43 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-container {
+    background-color: lightblue;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu-container_logo {
+    background-image: url(https://www.anses.gob.ar/themes/custom/ansessite/images/logo-anses-con-slogan.png); 
+    height: 50px;
+    background-repeat:no-repeat;
+    width: 200px;
+}
+
+.links_left ul {
+    display: flex;
+    height: 30px;    
+}
+
+.links_left li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.links_left a{
+    display: inline-block;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+
